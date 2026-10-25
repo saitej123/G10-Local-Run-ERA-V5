@@ -1,0 +1,118 @@
+{
+  "source": "bigcode/starcoderdata",
+  "shard": "python-train-00000-of-00059.parquet",
+  "docs_scanned": 4000,
+  "note": "Probe of python/train-00000-of-00059.parquet from bigcode/starcoderdata. Not the lab sample pack. E3 and F1 values are redacted.",
+  "items": [
+    {
+      "doc_id": "635",
+      "repo": "BearerPipelineTest/synapse-1",
+      "path": "tests/rest/client/test_login.py",
+      "chars": 53575,
+      "code": "E3",
+      "evidence": "private key at offset 41541",
+      "offset": 41541,
+      "snippet": "jwt_privatekey = \"\\n\".join([\n    \"\u27e6private key at offset 41541\u27e7\",\n])"
+    },
+    {
+      "doc_id": "1024",
+      "repo": "SUSE/azure-sdk-for-python",
+      "path": "azure-mgmt/tests/test_mgmt_network.py",
+      "chars": 27399,
+      "code": "A1",
+      "evidence": "BOM at offset 0",
+      "offset": 0,
+      "snippet": "\ufeff# coding: utf-8\n\n#-------------------------------------------------------------------------\n# Copyright (c) Microsoft Corporation. All rights reserved.\n# Licen"
+    },
+    {
+      "doc_id": "2926",
+      "repo": "motakine/ILAS_slackbot",
+      "path": "plugins/number.py",
+      "chars": 2737,
+      "code": "A1",
+      "evidence": "BOM at offset 0",
+      "offset": 0,
+      "snippet": "\ufeffimport slackbot.bot\nimport random\n\nanswer = random.randint(1, 50)\nmax = 50\n\ndef number(num):\n    '''number \u5224\u5b9a\n    Args:\n        num (int): \u5224\u5b9a\u3059\u308b\u6570\u5b57\n    Returns:\n"
+    },
+    {
+      "doc_id": "1228",
+      "repo": "calendar42/SleekXMPP--XEP-0080-",
+      "path": "examples/rpc_server_side.py",
+      "chars": 1154,
+      "code": "F1",
+      "evidence": "email at offset 946",
+      "offset": 946,
+      "snippet": "elf._event.wait()        \n    \n\n\ndef main():\n\n    session = Remote.new_session('\u27e6redacted\u27e7/rpc', '*****')\n    \n    thermostat = session.new_handler(ANY_ALL, Thermostat, 18)\n    \n    thermostat.wait_for_release()\n    \n    session.close()"
+    },
+    {
+      "doc_id": "1769",
+      "repo": "Kshitijkrishnadas/haribol",
+      "path": "Lib/test/test_urllib.py",
+      "chars": 72219,
+      "code": "F1",
+      "evidence": "email at offset 21923",
+      "offset": 21923,
+      "snippet": "P/1.0 200 OK\\r\\n\\r\\nHello!\")\n        try:\n            fp = urlopen(\"http://user:\u27e6redacted\u27e7/\")\n            self.assertEqual(fp.readline(), b\"Hello!\")\n            self.assertEqual(fp.readline(), b\"\")\n            self.assertEqual(fp.getur"
+    },
+    {
+      "doc_id": "2660",
+      "repo": "ivan2kh/find_forks",
+      "path": "tests/test_find_forks/test_find_forks.py",
+      "chars": 4874,
+      "code": "F1",
+      "evidence": "email at offset 2857",
+      "offset": 2857,
+      "snippet": "-2 https://github.com/yagmort/symfony1.git\n        git remote add test-origin-3 \u27e6redacted\u27e7:tjerkw/Android-SlideExpandableListView.git\n        \"\"\"\n        user, repo = determine_names()\n        self.assertEqual(user, 'frost-nzcr4')\n     "
+    },
+    {
+      "doc_id": "1935",
+      "repo": "karta1782310/python-docx-automated-report-generation",
+      "path": "20200416_Socialmail/mailserverUi.py",
+      "chars": 22858,
+      "code": "A2",
+      "evidence": "control U+0008 at offset 3891",
+      "offset": 3891,
+      "snippet": "icked.connect(self.display_update_eml)\n        self.btn_get_logs = QPushButton(\"\b\u89f8\u767c\u660e\u7d30\")\n        self.btn_get_logs.clicked.connect(self.display_logs)\n        self.btn_download_logs = QPushButton(\"\u4e0b\u8f09\u89f8\u767c\u660e\u7d30\")\n        self.btn_download_logs.click"
+    },
+    {
+      "doc_id": "2213",
+      "repo": "ptsurko/coursera_crypt",
+      "path": "hw1.py",
+      "chars": 8864,
+      "code": "E2",
+      "evidence": "base64-like run of 344 chars at offset 871",
+      "offset": 871,
+      "snippet": "73fb4302cd95d770c65b40aaa065f2a5e33a5a0bb5dcaba43722130f042f8ec85b7c2070'\ns6 = '32510bfbacfbb9befd54415da243e1695ecabd58c519cd4bd2061bbde24eb76a19d84aba34d8de287be84d07e7e9a30ee714979c7e1123a8bd9822a33ecaf512472e8e8f8db3f9635c1949e640c62185"
+    },
+    {
+      "doc_id": "2836",
+      "repo": "FantasyGold/FantasyGold-Core",
+      "path": "test/functional/fantasygold_opcall.py",
+      "chars": 12419,
+      "code": "E2",
+      "evidence": "base64-like run of 628 chars at offset 3370",
+      "offset": 3370,
+      "snippet": "      }\n        }\n        \"\"\"\n        contract_data = self.node.createcontract(\"6060604052341561000c57fe5b5b61011e8061001c6000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806312065fe0"
+    },
+    {
+      "doc_id": "2461",
+      "repo": "nng555/fairseq",
+      "path": "scripts/extract.py",
+      "chars": 2953,
+      "code": "B3",
+      "evidence": "ghost marker <s> at offset 919",
+      "offset": 919,
+      "snippet": "rget = line.split(\"\\t\")\n            if args.add_sos:\n                target = f\"<s> {target}\"\n            if args.add_eos:\n                target = f\"{target} </s>\"\n\n            if len(target.split()) >= args.len:\n                words = [t"
+    },
+    {
+      "doc_id": "2613",
+      "repo": "hui-won/KoBART_Project",
+      "path": "train.py",
+      "chars": 9369,
+      "code": "B3",
+      "evidence": "ghost marker <s> at offset 6644",
+      "offset": 6644,
+      "snippet": "et_pytorch_kobart_model())\n        self.model.train()\n        self.bos_token = '<s>'\n        self.eos_token = '</s>'\n        self.pad_token_id = 0\n        self.tokenizer = get_kobart_tokenizer()\n\n    def forward(self, inputs):\n        atten"
+    }
+  ]
+}

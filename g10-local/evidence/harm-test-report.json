@@ -1,0 +1,80 @@
+{
+  "pack": "code-python",
+  "source": "bigcode/starcoderdata",
+  "gold_set_path": "G10-Local-Run-ERA-V5/g10-local/evidence/gold-code-python-200.parquet",
+  "gold_docs": 200,
+  "threshold_pct": 1.0,
+  "all_pass": true,
+  "medicines": {
+    "A1": {
+      "gold_docs": 200,
+      "changed": 0,
+      "dropped": 0,
+      "harm_pct": 0.0,
+      "passes_1pct_gate": true
+    },
+    "A2": {
+      "gold_docs": 200,
+      "changed": 0,
+      "dropped": 0,
+      "harm_pct": 0.0,
+      "passes_1pct_gate": true
+    },
+    "A4": {
+      "gold_docs": 200,
+      "changed": 0,
+      "dropped": 0,
+      "harm_pct": 0.0,
+      "passes_1pct_gate": true
+    },
+    "B1": {
+      "gold_docs": 200,
+      "changed": 0,
+      "dropped": 0,
+      "harm_pct": 0.0,
+      "passes_1pct_gate": true
+    },
+    "B3": {
+      "gold_docs": 200,
+      "changed": 0,
+      "dropped": 0,
+      "harm_pct": 0.0,
+      "passes_1pct_gate": true
+    },
+    "C2": {
+      "gold_docs": 200,
+      "changed": 0,
+      "dropped": 0,
+      "harm_pct": 0.0,
+      "passes_1pct_gate": true
+    },
+    "E1": {
+      "gold_docs": 200,
+      "changed": 0,
+      "dropped": 0,
+      "harm_pct": 0.0,
+      "passes_1pct_gate": true
+    },
+    "E2": {
+      "gold_docs": 200,
+      "changed": 0,
+      "dropped": 0,
+      "harm_pct": 0.0,
+      "passes_1pct_gate": true
+    },
+    "E3": {
+      "gold_docs": 200,
+      "changed": 0,
+      "dropped": 0,
+      "harm_pct": 0.0,
+      "passes_1pct_gate": true
+    },
+    "F1": {
+      "gold_docs": 200,
+      "changed": 0,
+      "dropped": 0,
+      "harm_pct": 0.0,
+      "passes_1pct_gate": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[oc]
+.pytest_cache/
+.venv/
+
+# Secrets
+.env
+*.env
+
+# Local Parquet shards and large data files
+g10-local/data/
+*.parquet
+*.arrow
+*.zst
+*.gz
+*.zip
+*.tar
+*.bin
+*.pt
+*.safetensors
